@@ -22,5 +22,32 @@ p,a{
 
 #projects{
     background: #006494;
+}
 
+.projects{
+    position: relative;
+    transition: .5s ease;
+}
+
+.project-title{
+    font-size: 1.3rem;
+    text-align: center;
+    background: #051923;
+    color: #fff;
+    padding: 1rem;
+    transition: 1s ease;
+}
+
+.code{
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.projects:hover{
+    transform: translate(0, 10px);
+}
+
+.projects:hover .code {
+    opacity: 1;
+    color: #0582ca;
 }
