@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cantarell&display=swap');
+
+h1,h2,h3,h4,h5.h6{
+    font-family: 'Alfa Slab One', cursive;
+}
+
+p,a{
+    font-family: 'Cantarell', sans-serif;
+}
+
+#welcome-section{
+    background: url(img/blob.svg), #003554;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 800px;
+    padding-top: 18%;
+}
+
+#welcome-section p{
+    color: #0582ca;
+}
+
+#projects{
+    background: #006494;
+
+}
