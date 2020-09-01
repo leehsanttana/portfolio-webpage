@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cantarell&display=swap');
 
+html{
+    scroll-behavior: smooth;
+}
+
 h1,h2,h3,h4,h5.h6{
     font-family: 'Alfa Slab One', cursive;
 }
@@ -8,12 +12,26 @@ p,a{
     font-family: 'Cantarell', sans-serif;
 }
 
+.bg-nav{
+    background: #051923;
+}
+
+#navbar .nav-link{
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 900;
+}
+
+#navbar .nav-link:hover{
+    color: #006494;
+}
+
 #welcome-section{
     background: url(img/blob.svg), #003554;
     background-position: top;
     background-repeat: no-repeat;
-    height: 800px;
     padding-top: 18%;
+    height: 100vh;
 }
 
 #welcome-section p{
@@ -29,7 +47,7 @@ p,a{
     transition: .5s ease;
 }
 
-.project-title{
+.project-tile{
     font-size: 1.3rem;
     text-align: center;
     background: #051923;
@@ -50,4 +68,19 @@ p,a{
 .projects:hover .code {
     opacity: 1;
     color: #0582ca;
+}
+
+#about{
+    background: #051923;
+}
+
+#about a{
+    font-size: 1.5rem;
+    color: #dcdcdc;
+    transition: .5s ease;
+}
+
+#about a:hover{
+    color: #0582ca;
+    transform: scale(1.2);
 }
